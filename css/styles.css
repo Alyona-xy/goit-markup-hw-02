@@ -38,17 +38,25 @@ body    {
 
 .navigation-list-link:hover, 
 .navigation-list-link:focus,
-.contact-mail-link:hover,
-.contact-mail-link:focus {
+.contacts-mail-link:hover,
+.contacts-mail-link:focus,
+.contacts-phone-link:hover,
+.contacts-phone-link:focus
+.contacts-phone-icon:hover,
+.contacts-phone-icon:focus {
     color: #2196F3;
 }
 .active {
     color: #2196F3;
 }
 
+.address {
+font-style: normal;
+text-decoration: none;
+}
 
-.contact-mail-link,
-.contact-phone-link  {
+.contacts-mail-link,
+.contacts-phone-link  {
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -100,8 +108,8 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
-/* Activities */
-.activities-list-item-title {
+/* Services */
+.services-list-item-title {
     color: #FFFFFF;
 }
 
@@ -115,3 +123,46 @@ color: #212121;
 }
 
 /* Our team */
+.our-team-member {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.our-team-member-position {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* Constant clients*/
+
+/* Footer*/
+.footer .logo {
+    color: #FFFFFF;
+}
+.footer .accent-logo-text {
+    color: #2196F3;
+}
+.footer-contacts-list-item {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer .address {
+font-style: normal;
+text-decoration: none;
+    }
+
+.transparency {
+color: rgba(255, 255, 255, 0.6);
+}
