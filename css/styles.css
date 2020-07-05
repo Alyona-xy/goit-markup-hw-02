@@ -152,7 +152,7 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 
-/* Constant clients*/
+/* Constant clients */
 
 /* Footer*/
 .footer .logo {
@@ -172,3 +172,50 @@ font-style: normal;
 text-decoration: none;
 color:  rgba(255, 255, 255, 0.6)
     }
+
+
+/* Портфолио Main*/
+
+/* Список фильтров */
+.filter-list-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+background-color: #F5F4FA;
+}
+
+.filter-list-button:hover,
+.filter-list-button:focus {
+color: var(--background-color);
+background-color: var(--accent-color);
+}
+
+/* Проекты */
+
+.portfolio-projects-list-item-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--title-text-color);
+}
+
+.portfolio-projects-list-item-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+.portfolio-projects-description {
+font-weight: 400;
+font-size: 18px;
+line-height: 1.56;
+letter-spacing: 0.03em;
+color: var(--background-color);
+}
+
