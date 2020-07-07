@@ -107,6 +107,7 @@ background-color: #F5F4FA;
 .about-us-list-item-title,
 .activities-list-item-title {
 font-weight: 700;
+font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -121,7 +122,11 @@ letter-spacing: 0.03em;
 
 /* Services */
 .services-list-item-title {
-    color: var(--background-color);
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--background-color);
 }
 
 .subtitle {
@@ -167,6 +172,14 @@ letter-spacing: 0.03em;
 color: var(--background-color);
 }
 
+.text-address {
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--background-color);
+}
+
 .footer .address {
 font-style: normal;
 text-decoration: none;
@@ -177,7 +190,7 @@ color:  rgba(255, 255, 255, 0.6)
 /* Портфолио Main*/
 
 /* Список фильтров */
-.filter-list-button {
+.portfolio-filter-list-button {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -187,8 +200,8 @@ color: var(--title-text-color);
 background-color: #F5F4FA;
 }
 
-.filter-list-button:hover,
-.filter-list-button:focus {
+.portfolio-filter-list-button:hover,
+.portfolio-filter-list-button:focus {
 color: var(--background-color);
 background-color: var(--accent-color);
 }
