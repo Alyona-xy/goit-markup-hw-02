@@ -57,13 +57,10 @@ img {
     color: var(--accent-color);
 }
 
-.header {
-    
-}
-
 .header .container {
     display:flex;
     justify-content: space-between;
+    margin-bottom: 47px;
 }
 
 .navigation {
@@ -104,6 +101,7 @@ margin-right: 40px;
 
 .contacts-list {
 display:flex;
+align-items: center;
 }
 
 .contacts-list-item {
@@ -138,6 +136,7 @@ padding-left: 452px;
 padding-bottom: 200px;
 padding-top: 200px;
 padding-right: 452px;
+margin-bottom: 61px;
 }
 
 .hero-title {
@@ -169,8 +168,26 @@ color: var(--background-color);
 }
 
 /* About us */
+.about-us {
+    margin-bottom: 94px;
+}
+
+.about-us-list {
+display: flex;
+}
+
+.about-us-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .about-us-list-item-icon {
 background-color: #F5F4FA;
+margin: auto;
+margin-bottom: 30px;
+}
+
+.about-us-list-item-title {
+    margin-bottom: 10px;
 }
 
 .about-us-list-item-title,
@@ -190,12 +207,26 @@ letter-spacing: 0.03em;
 }
 
 /* Services */
+.services {
+    margin-bottom: 56px;
+}
+
+.services .container {
+display:flex;
+}
+
+.services-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .services-list-item-title {
 font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--background-color);
+/* color: var(--background-color); */
+color: tomato;
+text-align: center;
 }
 
 .subtitle {
@@ -205,9 +236,25 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
+margin-bottom: 50px;
 }
 
 /* Our team */
+.our-team .container {
+    display: flex;
+    justify-content: center;
+    padding-top: 186px;
+    padding-bottom: 94px;
+}
+
+.our-team-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-team-list-item-img {
+    margin-bottom: 30px;
+}
+
 .our-team-member {
 font-weight: 500;
 font-size: 16px;
@@ -215,6 +262,7 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
+margin-bottom: 10px;
 }
 
 .our-team-member-position {
@@ -224,13 +272,70 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
+margin-bottom: 16px;
+}
+
+.social-links {
+display: flex;
+padding-left: 0px;
+justify-content: center;
+}
+
+.social-links-item:not(:last-child) {
+    margin-right: 10px;
 }
 
 /* Constant clients */
+.constant-clients {
+    padding-top: 132px;
+    padding-bottom: 94px;
+}
+
+.constant-clients .subtitle {
+    margin-bottom: 50px;
+}
+
+.constant-clients .container {
+    display: flex;
+}
+
+.constant-clients-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.constant-clients-list-item-icon {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Footer*/
-.footer .logo {
-    color: var(--background-color);
+.footer-info .logo {
+    /* color: var(--background-color); */
+    color: tomato;
+}
+
+.container {
+    display:flex;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+.logo {
+    margin-bottom: 20px;
+}
+
+.footer-contacts-list {
+    padding-left: 0px;
+}
+
+.footer-contacts-list-item,
+.footer-contacts-list-mail-link {
+    margin-bottom: 9px;
 }
 
 .footer-contacts-list-item {
@@ -238,7 +343,8 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--background-color);
+/* color: var(--background-color); */
+color: tomato;
 }
 
 .text-address {
@@ -246,14 +352,27 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--background-color);
+/* color: var(--background-color); */
+color: tomato;
 }
 
-.footer .address {
+.footer-info .address {
 font-style: normal;
 text-decoration: none;
-color:  rgba(255, 255, 255, 0.6)
+/* color:  rgba(255, 255, 255, 0.6) */
+color: tomato;
     }
+
+.services-list-item-title {
+    margin-bottom: 20px;
+}
+.social-links {
+    display: flex;
+}
+
+.social-links-item:not(:last-child) {
+    margin-right: 10px;
+}
 
 
 /* Портфолио Main*/
