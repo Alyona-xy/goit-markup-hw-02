@@ -11,12 +11,13 @@
 <body>
     
     <header class="header">
+        <div class="container">
         <!--Шапка-->
     <nav class="navigation">
         <a class="logo link" href="./index.html" lang="en"><span class="accent-logo-text">Web</span> Studio</a>
         <ul class="navigation-list list">
-        <li class="navigation-list-item"><a class="navigation-list-link link" href="./index.html">Студия</a></li>
-        <li class="navigation-list-item"><a class="navigation-list-link active link" href="./portfolio.html">Портфолио</a></li>
+        <li class="navigation-list-item"><a class="navigation-list-link active link" href="">Студия</a></li>
+        <li class="navigation-list-item"><a class="navigation-list-link link" href="./portfolio.html">Портфолио</a></li>
         <li class="navigation-list-item"><a class="navigation-list-link link" href="">Контакты</a></li>
         </ul>
     </nav>
@@ -31,20 +32,24 @@
             <a class="contacts-phone-link link" href="tel:+380961111111"><address class="address">+38 096 111 11 11</address></a>
             </li>
         </ul>
+    </div>
     </header>
+    
 <main>
 
 
 <section class="portfolio">
 <h1 class="portfolio-title" hidden>Наши проекты</h1>
-<ul class="portfolio-filter-list list">
+<ul class="portfolio-filter-list list container">
 <li class="portfolio-filter-list-item"><button type="button" class="portfolio-filter-list-button">Все</button></li>
 <li class="portfolio-filter-list-item"><button type="button" class="portfolio-filter-list-button">Веб-сайты</button></li>
 <li class="portfolio-filter-list-item"><button type="button" class="portfolio-filter-list-button">Приложения</button></li>
-<li class="portfolio-portfolio-filter-list-item"><button type="button" class="portfolio-filter-list-button">Дизайн</button></li>
+<li class="portfolio-filter-list-item"><button type="button" class="portfolio-filter-list-button">Дизайн</button></li>
 <li class="portfolio-filter-list-item"><button type="button" class="portfolio-filter-list-button">Маркетинг</button></li>
 </ul>
-<ul class="portfolio-projects-list list">
+
+<div class="portfolio-container">
+<ul class="portfolio-projects-list list container">
 <li class="portfolio-projects-list-item">
     <a class="portfolio-projects-list-item-link link" href="">
     <img class="portfolio-projects-list-item-img" src="./images/jpg/portfolio/portfolio-project-1.jpg" alt="" width="370">
@@ -118,49 +123,52 @@
     </a>
 </li>
 </ul>
+</div>
 </section>
 
 </main>
 
-<footer>
-    <!--Часть через див с лого и адресами-->
-<div class="footer">
-<a class="logo link" href="./index.html" lang="en"><span class="accent-logo-text">Web</span> Studio</a>
-
-<ul class="footer-contacts-list list">
-<li class="footer-contacts-list-item"><address class="text-address">г. Киев, пр-т Леси Украинки, 26</address></li>
-<li class="footer-contacts-list-item">
-    <a class="footer-contacts-list-mail-link link" href="mailto:info@example.com"><address class="address">info@example.com</address></a>
+<footer class="footer-container">
+    <div class="container">
+        <!--Часть через див с лого и адресами-->
+    <div class="footer-info">
+    <a class="logo link" href="./index.html" lang="en"><span class="accent-logo-text">Web</span> Studio</a>
+    
+    <ul class="footer-contacts-list list">
+    <li class="footer-contacts-list-item"><address class="text-address">г. Киев, пр-т Леси Украинки, 26</address></li>
+    <li class="footer-contacts-list-item">
+        <a class="footer-contacts-list-mail-link link" href="mailto:info@example.com"><address class="address">info@example.com</address></a>
+        </li>
+    
+    <li class="footer-contacts-list-item"><a class="footer-contacts-list-phone-link link" href="tel:+380991111111"><address class="address">+38 099 111 11 11</address></a>
     </li>
-
-<li class="footer-contacts-list-item"><a class="footer-contacts-list-phone-link link" href="tel:+380991111111"><address class="address">+38 099 111 11 11</address></a>
-</li>
-</ul>
-</div> 
-
-<!--Часть с призывом и иконками соц сетей-->
-<div class="footer-social-links">
-<b class="services-list-item-title">присоединяйтесь</b>
-<ul class="social-links list list">
-<li class="social-links-item">
-<a class="social-links-item-link link" href="" aria-label="иконка инстаграма">
-    <img class="social-links-item-icon" src="./images/svg/footer/insta-icon.svg" alt="Иконка инстаграма"></a>
-</li>
-<li class="social-links-item">
-<a class="social-links-item-link link" href="" aria-label="иконка твиттера">
-    <img class="social-links-item-icon" src="./images/svg/footer/twitter-icon.svg" alt="Иконка твиттера"></a>
-</li>
-<li class="social-links-item">
-<a class="social-links-item-link link" href="" aria-label="иконка фейсбука">
-    <img class="social-links-item-icon" src="./images/svg/footer/facebook-icon.svg" alt="Иконка фейсбука"></a>
-</li>
-<li class="social-links-item">
-<a class="social-links-item-link link" href="" aria-label="иконка ликедина">
-    <img class="social-links-item-icon" src="./images/svg/footer/linkedin-icon.svg" alt="Иконка линкедина"></a>
-</li>
-</ul>
-</div>     
-</footer>
+    </ul>
+    </div> 
+    
+    <!--Часть с призывом и иконками соц сетей-->
+    <div class="footer-social-links">
+    <b class="services-list-item-title">присоединяйтесь</b>
+    <ul class="social-links list list">
+    <li class="social-links-item">
+    <a class="social-links-item-link link" href="" aria-label="иконка инстаграма">
+        <img class="social-links-item-icon" src="./images/svg/footer/insta-icon.svg" alt="Иконка инстаграма"></a>
+    </li>
+    <li class="social-links-item">
+    <a class="social-links-item-link link" href="" aria-label="иконка твиттера">
+        <img class="social-links-item-icon" src="./images/svg/footer/twitter-icon.svg" alt="Иконка твиттера"></a>
+    </li>
+    <li class="social-links-item">
+    <a class="social-links-item-link link" href="" aria-label="иконка фейсбука">
+        <img class="social-links-item-icon" src="./images/svg/footer/facebook-icon.svg" alt="Иконка фейсбука"></a>
+    </li>
+    <li class="social-links-item">
+    <a class="social-links-item-link link" href="" aria-label="иконка ликедина">
+        <img class="social-links-item-icon" src="./images/svg/footer/linkedin-icon.svg" alt="Иконка линкедина"></a>
+    </li>
+    </ul>
+    </div>
+    </div>     
+    </footer>
     
 </body>
 </html>
